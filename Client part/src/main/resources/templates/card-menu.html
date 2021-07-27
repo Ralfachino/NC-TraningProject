@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Getting Started: Handling Form Submission</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+</head>
+<body>
+<h1>NC-Bank</h1>
+<h2>Select action</h2>
+<form>
+    <p>Enter the amount in multiples of 100RUB but not more 200000RUB:</p>
+    <input type="text" name="money" required pattern="([1-9]\d{0,2}00$)|(1\d{0,3}00$)|200000$"/>
+    <button formaction="http://localhost:8081/withdraw-money" formmethod="post">Withdraw money</button>
+    <button formaction="http://localhost:8081/deposit-money" formmethod="post">Deposit money</button>
+</form>
+
+<form>
+    <button formaction="http://localhost:8081/get-balance" formmethod="post">Find out the balance</button>
+</form>
+
+<form>
+    <button formaction="http://localhost:8081/index" formmethod="get">Exit</button>
+</form>
+
+</body>
+</html>
