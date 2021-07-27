@@ -1,0 +1,9 @@
+com\myCompany\model\Anc.class
+com\myCompany\repository\EmployeeRepository.class
+com\myCompany\SpringBootStarter.class
+com\myCompany\controllerServer\RController.class
+com\myCompany\service\ClientAccountService.class
+com\myCompany\configs\MailConfig.class
+com\myCompany\entity\ClientAccount.class
+com\myCompany\entity\Cards.class
+com\myCompany\service\BankService.class
